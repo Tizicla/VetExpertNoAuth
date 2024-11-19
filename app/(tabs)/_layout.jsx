@@ -21,13 +21,7 @@ export default function TabLayout() {
                 tabBarIcon: ({ color }) => <AntDesign name="home" size={24} color={color} />,
             }}
         />
-        <Tabs.Screen name="favorite"  
-                options={{
-                    title: 'Favoritos', 
-                    headerShown: false,
-                    tabBarIcon:({color}) => <MaterialCommunityIcons name="tag-heart-outline" size={24} color={color} />
-                }}
-            />
+
             <Tabs.Screen name="dates"
                 options={{
                     title: 'Citas', 
