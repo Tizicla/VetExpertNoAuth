@@ -23,6 +23,7 @@ export default function RootLayout() {
           headerShown:false
         }}
       />
+      <Stack.Screen name="home/webview" options={{ headerShown: false }} />
 
     </Stack>
   );
