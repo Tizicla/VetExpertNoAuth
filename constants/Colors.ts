@@ -5,4 +5,6 @@ export default{
     secundary: '4CA6A8', //Color secundario, elementos a destacar, links, etc.
     text: '#4D4D4D', //Color de texto principal y secundario
     borderLines: '#E0E0E0', //Color de las lineas divisorias, bordes, sombras, elementos extra.
+    buttonBackground:  '#e0f7fa', //Color de fondo de los botones
+    buttonText: '#00796b', //Color del texto de los botones
 }

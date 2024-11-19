@@ -30,14 +30,12 @@ export default function SearchBar() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 10,
-    
+    padding: 0,
   },
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#faf7ff',
-    
     borderRadius: 10,
     paddingHorizontal: 10,
     paddingVertical: 5,

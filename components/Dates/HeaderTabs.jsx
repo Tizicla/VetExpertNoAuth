@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import Colors from '../../constants/Colors';
+
 
 const HeaderTabs = () => {
   const [activeTab, setActiveTab] = useState('Programadas');
 
   return (
-    
-
-        
+ 
     <View style={styles.container}>
       {['Programadas', 'Realizadas', 'Canceladas'].map((tab) => (
+        
         <TouchableOpacity
           key={tab}
           style={[
@@ -23,6 +23,7 @@ const HeaderTabs = () => {
             {tab} (0)
           </Text>
         </TouchableOpacity>
+        
       ))}
     </View>
   );
@@ -35,7 +36,6 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     paddingHorizontal: 12,
     paddingVertical: 10,
-    backgroundColor: '#fff',
     borderColor: Colors.borderLines,
     shadowColor: '#000',
     shadowOpacity: 0.2,

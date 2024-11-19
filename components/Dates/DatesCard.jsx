@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
+import Colors from '../../constants/Colors';
 
 const DatesCard = () => {
   return (
@@ -9,7 +10,7 @@ const DatesCard = () => {
         La prevención en salud es esencial. Cuida de su salud y reserva una cita ahora.
       </Text>
       <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>Encontrar veterinario</Text>
+        <Text style={styles.buttonText}>Encontrar veterinario →</Text>
       </TouchableOpacity>
     </View>
   );
@@ -36,13 +37,13 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   button: {
-    backgroundColor: '#007bff',
+    backgroundColor: Colors.buttonBackground,
     paddingVertical: 12,
     borderRadius: 8,
     alignItems: 'center',
   },
   buttonText: {
-    color: '#ffffff',
+    color: Colors.buttonText,
     fontWeight: 'bold',
   },
 });

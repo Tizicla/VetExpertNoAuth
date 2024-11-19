@@ -3,8 +3,8 @@ import React from 'react';
 
 const ItemNotifications = ({ name, date, message, image }) => {
   return (
-    <View style={styles.container}>
-      <Image source={image} style={styles.avatar} />
+    <View style = {styles.container}>
+      <Image source = {image} style = {styles.avatar} />
       <View style={styles.content}>
         <View style={styles.header}>
           <Text style={styles.name}>{name}</Text>

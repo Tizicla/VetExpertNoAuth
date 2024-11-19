@@ -11,7 +11,7 @@ export default function Header() {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        paddingHorizontal:10,
+        
     }}>
         <View>
             <Text style = {{

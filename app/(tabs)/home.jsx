@@ -11,24 +11,26 @@ import ReviewSection from '../../components/Home/ReviewSection'
 export default function Home() {
   return (
     <ScrollView style={{ backgroundColor: Colors.background }}>
-    <View style ={{
-      padding:20,
-      backgroundColor: Colors.background,
-    }}
-    >
-      {/*Header*/}
-        <Header/>
-        <SearchBar/>
-      {/*Slider bonito*/}
-       <Slider/>
-       
-      {/*Tipos de mascota*/}
-        <PetListByCategory/>
-        <SpecialistsSection/>
-        <ReviewSection/>
-      {/*Veterinarios Listados*/}
-      {/*Nosé*/}
-    </View>
+      <View style ={{
+        padding:20,
+        backgroundColor: Colors.background,
+        marginTop:20,
+        marginHorizontal: 0,
+      }}
+      >
+        {/*Header*/}
+          <Header/>
+          <SearchBar/>
+        {/*Slider bonito*/}
+          <Slider/>
+        
+        {/*Tipos de mascota*/}
+          <PetListByCategory/>
+          <SpecialistsSection/>
+          <ReviewSection/>
+        {/*Veterinarios Listados*/}
+        {/*Nosé*/}
+      </View>
     </ScrollView>
   )
 }
