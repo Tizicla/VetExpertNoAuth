@@ -35,18 +35,19 @@ const styles = StyleSheet.create({
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#faf7ff',
-    borderRadius: 10,
+    borderRadius: 50,
     paddingHorizontal: 10,
     paddingVertical: 5,
+    backgroundColor: '#f8f9fa',
     shadowColor: '#000',
     shadowOpacity: 0.1,
-    shadowOffset: { width: 0, height: 1 },
     shadowRadius: 4,
+    elevation: 2,
   },
   input: {
     flex: 1,
     fontSize: 16,
     fontFamily: 'Montserrat-Regular',
+    
   },
 });

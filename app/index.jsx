@@ -22,7 +22,6 @@ export default function Index() {
       />
       <View
         style={{
-          padding: 20,
           display: "flex",
           alignItems: "center",
         }}
@@ -51,8 +50,8 @@ export default function Index() {
         <Pressable
           onPress={() => router.push("/(tabs)/home")} // Navega a la ruta deseada
           style={{
-            padding: 14,
-            marginTop: 40,
+            padding: 10,
+            marginTop: 30,
             backgroundColor: Colors.primary,
             borderRadius: 10,
             alignItems: "center",
