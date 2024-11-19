@@ -7,6 +7,7 @@ import PetListByCategory from '../../components/Home/PetListByCategory'
 import SearchBar from '../../components/Home/SearchBar'
 import SpecialistsSection from '../../components/Home/SpecialistsSection'
 import ReviewSection from '../../components/Home/ReviewSection'
+
 export default function Home() {
   return (
     <ScrollView style={{ backgroundColor: Colors.background }}>
